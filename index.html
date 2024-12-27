@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>解答用ページ</title>
+          <link rel="stylesheet" href="style.css" />
+      </head>
+    <body>
+          <img src="奇妙な手紙.jpg" alt="奇妙な手紙の画像" id="img" />
+          <div id="form-ou">
+              <form id="form">
+                  <p><b id="mondai">キーワードを入力してください</b></p>
+                  <input type="text" placeholder="ここにキーワードを入力" id="input_text" spellcheck="false" required/>
+                  <br />
+                  <input type="submit" value="解答する" id="input_submit" />
+              </form>
+              <div id="divver"></div>
+                  <div class="tennou none bunshou">
+                      <p>キーワード：　天皇</p>
+                      <p>「天皇の死？」</p>
+                      <p>副委員長は首をかしげた。その時委員長からメールで新聞の写真が送られてきた。48年前の12月のものだ。新聞を見てみると、端に書いてある一文が目に留まった。</p>
+                      <p><b>ナイフを持った女が皇居内に侵入</b></p>
+                      だ。もしや狙いは天皇だったのか。ただ何も関わりそうなものがない。何か見逃しているだろうか。<br />
+                      <br />
+                      副委員長は小さくうなずくと資料庫を出た。
+
+                  </div>
+                  <div class="ichigaya none bunshou">
+                      <p>キーワード：　市ヶ谷</p>
+                      <p>刑事が帰ってくると、</p>
+                      <p>「市ヶ谷ですか？」</p>
+                      <p>と尋ねた。刑事はうなずき、ほかの資料も見せてくれた。</p>
+                      <p>「それ全部やるよ。現物は俺が保管してあるし、まだスペアの資料もある」</p>
+                      <p>刑事はそういうと、聞き込みに行くと言い、何かわかったら教えろと言い残し警視庁を去った。</p>
+                      <p>副委員長は近くにあった椅子に座り、もらった資料を見始めた。</p>
+                  </div>
+                  <div class="meiji none bunshou">
+                      <p>キーワード：明治神宮外苑いちょう並木</p>
+                      <p>
+                          委員長は新たな犠牲者が出ていないことを願って、明治神宮外苑いちょう並木に向かった。
+                          委員長は肩で息をしながらあたりを見回した。その時、サイレンが鳴っている警察車両が向かって来るのが見えた。<br />
+                          委員長は、「手遅れだったか」といい、警察車両の窓からの中をみた。偶然、以前未解決事件をともに捜査した刑事がいたので、中を見せてもらうことができた。被害者の男の子はいちょうに首を絞めつけられて死んだらしい。ポケットにはメモが入っていた。
+                      </p>
+                      <div class="img-ou">
+                        <div>拡大して見る</div>
+                        <img src="meiji.jpeg" alt="いちょう並木の事件現場" class="meijiimg" />
+                      </div>
+                      
+                  </div>
+                  <div class="button-ou">
+                      <button class="back none buttons">＜入力画面に戻る</button>
+                      <button class="next none buttons">次に進む＞</button>
+                  </div>
+                  <div class="nextform none">
+                    <div id="nextformform">
+                      <p><b id="mondai">隠れたキーワードを入力してください</b></p>
+                      <input type="text" placeholder="ここにキーワードを入力" id="input_text_next" spellcheck="false" required />
+                      <br />
+                      <button id="input_submit_secret">回答する</button>
+                    </div>
+            </div>
+            <script src="script.js"></script>
+      </body>
+  </html>

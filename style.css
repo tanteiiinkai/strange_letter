@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ece33e;
+}
+#form-ou {
+    display: block;
+    text-align: center;
+    width: 80%;
+    height: 400px;
+    border: solid black;
+    margin: auto;
+    background-color: white;
+    border-radius: 40px;
+  }
+  
+#mondai {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#input_text {
+  width: 30%;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 40px;
+  border-color: black;
+}
+
+#input_submit {
+  width: 30%;
+  height: 50px;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  box-shadow: none;
+  outline: none;
+  transition-duration: 0.1s;
+}
+
+#divver {
+  text-align: center;
+  margin-top: 40px;
+  color: red;
+}
+
+
+
+#img {
+  width: 40%;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+.none {
+  display: none !important; /* 強制的に非表示にする */
+}
+
+.show {
+  display: block;
+  width: 100%; /* 画面幅いっぱいに広げる */
+  margin: 0 auto; /* 要素を中央に配置 */
+}
+
+.buttons {
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  box-shadow: none;
+  outline: none;
+  margin: 4px;
+  width: auto;
+}
+
+.bunshou {
+  text-align: left;
+  padding-left: 10px;
+  transform: translate(0px, -10px);
+}
+.meijiimg {
+  width: 20%;
+}
