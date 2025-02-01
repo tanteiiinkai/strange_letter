@@ -10,7 +10,9 @@ body {
     border: solid black;
     margin: auto;
     background-color: white;
-    border-radius: 40px;
+    border-radius: 40px
+    padding-bottom: 50px; /* ボタンがはみ出さないように余裕を持たせる */
+
   }
   
 #mondai {
