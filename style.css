@@ -11,9 +11,8 @@ body {
     margin: auto;
     background-color: white;
     border-radius: 40px
-    padding-bottom: 50px; /* ボタンがはみ出さないように余裕を持たせる */
-
-  }
+    /* padding-bottom: 50px; ボタンがはみ出さないように余裕を持たせる */
+}
   
 #mondai {
   font-size: 40px;
@@ -81,4 +80,7 @@ body {
 }
 .meijiimg {
   width: 20%;
+}
+.akamoji {
+  color: red;
 }
