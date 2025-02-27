@@ -33,18 +33,20 @@ function gettext(event) {
     show(back);
     show(tennou);
     none(form);
+    divver.textContent = "";
     // 「市ヶ谷」または「市谷」キーワードに対する処理
   } else if (textValue === "市ヶ谷" || textValue === "市谷") {
     console.log("市ヶ谷が選ばれました");
     show(back);
     show(ichigaya);
     none(form);
-
+    divver.textContent = "";
     // 入力が一致しない場合のエラーメッセージ
   } else if (textValue === "明治神宮外苑いちょう並木") {
     show(meiji);
     show(back);
     none(form)
+    divver.textContent = "";
   }
   
   
